@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- https://tailwindcss.com/docs/max-width -->
+    <!-- https://gist.github.com/wesleyegberto/45c4cf175fa4ff69a575d1cce412ea9b -->
+    <!-- http://creative-tim.com/twcomponents/cheatsheet/tailwind-css-4 -->
+    <main class="max-w-2xl mx-auto px-4">
+        <h1 id="titulo-principal" class="text-blue-500">Estructuras y tipos de dato objeto</h1>
+        <hr>
+<!--
+        <h2>Hola</h2>
+        <button class="bg-red-500 hover:bg-red-500 rounded text-white cursor-pointer p-4 py-2" id="btn">Cambiar
+            color</button>
+        -->
+    </main>
+
+
+    <form id="formulario" class="max-w-md mx-auto p-6 bg-white rounded-2xl shadow-lg border border-gray-200 space-y-5">
+        <small id="smallErrores" class="text-red-500"></small>
+        <br />
+        <input type="text" name="nombre" placeholder="Nombre"
+            class="w-full px-4 py-3 border border-gray-300 rounded-lg text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+
+        <input type="email" name="email" placeholder="Email"
+            class="w-full px-4 py-3 border border-gray-300 rounded-lg text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+
+        <button type="submit"
+            class="w-full bg-blue-600 text-white font-semibold py-3 rounded-lg hover:bg-blue-700 active:scale-[0.98] transition duration-200">
+            Enviar
+        </button>
+    </form>
+
+    <script type="module" src="/clase-formdata/src/main.js"></script>
+</body>
+
+</html>
