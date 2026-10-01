@@ -1,0 +1,3 @@
+Nombre: romina
+Edad: 25
+Ciudad: bsas
